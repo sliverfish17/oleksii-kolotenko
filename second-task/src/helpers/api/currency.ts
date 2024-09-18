@@ -1,6 +1,6 @@
 import axios from "axios";
 import { CurrencyData, CurrencyPrices } from "@/helpers/types/Currency";
-import { API } from "@/helpers/constants/API";
+import { API } from "@/helpers/constants/api";
 
 export const fetchPrices = async (): Promise<CurrencyPrices> => {
   const { data } = await axios.get(API.Currency);

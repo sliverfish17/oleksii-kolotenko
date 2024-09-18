@@ -1,5 +1,5 @@
 import { ICONS_URL } from "@/helpers/api/icons";
-import { FORM_ENTRIES } from "@/helpers/constants/API";
+import { FORM_ENTRIES } from "@/helpers/constants/api";
 import { CurrencyInputType, CurrencyPrices } from "@/helpers/types/Currency";
 import React, { ChangeEvent, useMemo, useState } from "react";
 import {

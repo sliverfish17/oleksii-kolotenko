@@ -8,7 +8,7 @@ import { CurrencySelect } from "@/components/Select";
 import { AmountInput } from "@/components/Input";
 import { SubmitButton } from "@/components/Submit";
 import { CurrencyInputType } from "@/helpers/types/Currency";
-import { FORM_ENTRIES } from "@/helpers/constants/API";
+import { FORM_ENTRIES } from "@/helpers/constants/api";
 
 export const CurrencyForm: React.FC = () => {
   const {
